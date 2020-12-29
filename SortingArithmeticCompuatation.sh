@@ -16,7 +16,7 @@ for (( i=0 ;i<4;i++ ))
 do
   for (( j=$((i+1));j<4;j++))
   do
-	if [[ $((array[$i])) -le $((array[$j])) ]]
+	if [[ $((array[$i])) -ge $((array[$j])) ]]
 	then
 		temp=${array[$i]}
 		array[$i]=$((array[$j]))
