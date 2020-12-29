@@ -1,4 +1,6 @@
-#/bin/bash -x
-read -p "enter first number"
-read -p "enter second number"
-read -p "enter third number"
+#!/bin/bash -x
+read -p "enter first number" a
+read -p "enter second number" b 
+read -p "enter third number" c
+Arth=$((a+b*c))
+echo $Arth
